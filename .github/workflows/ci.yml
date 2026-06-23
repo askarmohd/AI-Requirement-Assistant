@@ -30,10 +30,10 @@ jobs:
 
       - name: Verify Repository Structure
         run: |
-          test -d BackEnd
-          test -d FrontEnd
-          test -d Docs
-          test -d Infra
+          test -d backend
+          test -d frontend
+          test -d docs
+          test -d infra
 
       - name: Pipeline Success
         run: echo "Repository validation completed"
