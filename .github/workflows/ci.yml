@@ -1,0 +1,11 @@
+name: CI Pipeline
+
+on:
+  push:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "CI Pipeline Running"
