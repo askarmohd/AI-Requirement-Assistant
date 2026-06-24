@@ -1,0 +1,1 @@
+DOCUMENT_STORAGE_PATH = "storage/documents"
