@@ -1,4 +1,4 @@
-from fastapi import APIRouter  
+from fastapi import APIRouter
 
 router = APIRouter()
 
@@ -7,5 +7,7 @@ router = APIRouter()
 def health():
     return {
         "success": True,
-        "status": "healthy"
+        "status": "healthy",
+        "service": "AI Requirement Assistant",
+        "version": "1.0.0"
     }
